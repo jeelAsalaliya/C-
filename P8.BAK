@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+
+ void main()
+ {
+  int n;
+  clrscr();
+
+  cout<<"enter an interger:";
+  cin>>n;
+
+  for(int i=1;i<=n;i++)
+  {
+   cout<<n<<'*'<<i<<'='<<n*i<<endl;
+  }
+  getch();
+}
